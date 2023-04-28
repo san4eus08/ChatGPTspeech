@@ -1,7 +1,7 @@
 import openai
 import speech_recognition
 
-api_key = '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'
+api_key = 'KEY'
 openai.api_key = api_key
 
 model_id = 'gpt-3.5-turbo'
