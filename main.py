@@ -18,8 +18,7 @@ def ChatGPT_conversation(conversation):
     return conversation
 
 
-conversation = []
-conversation.append({'role': 'system', 'content': 'How may I help you?'})
+conversation = [{'role': 'system', 'content': 'How may I help you?'}]
 
 conversation = ChatGPT_conversation(conversation)
 print(conversation[-1]['content'])
